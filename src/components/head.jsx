@@ -14,7 +14,7 @@ class Head extends Component {
             
             <div className="container head d-flex flex-column">
                 <h1 className='mx-auto display-4'>Tarefas</h1>
-                <img width='300px' className='mx-auto' src={Logo} alt= 'logo?'/>
+                <img width='300px' className='mx-auto img-responsive center-block' src={Logo} alt= 'logo?'/>
                 <h3 className='mx-auto'>{this.renderGreeting()}</h3>
                 {this.props.mensagem !== '' && <p className='mx-auto'>{this.props.mensagem}</p>}
             
